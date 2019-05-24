@@ -1,0 +1,229 @@
+// Joshua Herrera, Kryzia García
+//10-05-2019
+#include <iostream>
+//setlocale (LC_CTYPE,"SPANISH")
+using namespace std;
+//Declaración de variables
+const string empresa = "Hotel CJ Platino  Nuestro Hotel, tu mundo.";
+const string dir_empresa = "646 V. 5 NO.1186-A \n CENTRO, MX, 68300";
+const float IVA = 0.16;
+
+string nombre_cliente, fecha_sal, dir_cliente, fecha, producto;
+int Num_per, opcion, cant1, cant2, cant3, cant4, cant5, cant6, cant7, cant8, cant9, cant10;
+float sub1, sub2, sub3, sub4, sub5, sub6, sub7, sub8, sub9, sub10, subtotal, total, iva, precio;
+
+int contador = 0;
+
+float 
+	precio1 = 231.0, precio2 = 158.0, precio3 = 325.0, precio4 = 595.0, precio5 = 189.0,
+	precio6 = 219.0, precio7 = 298.0, precio8 = 910.0, precio9 = 430.0, precio10 = 515.0;
+
+// prototipos de las funciones
+void facturar(float subtotal);
+void MostrarDatosDeFactura();
+
+
+void sistemaFactura(float subtotalDeArmando) {
+	facturar(subtotalDeArmando);
+}
+
+
+void facturar (float subtotalDeArmando) {
+	// ------------ ENTRADAS ----------------
+	// pedir la fecha y numero de facturacion
+system ("cls");
+	cout << "Numero de huespedes: ";
+	cin >> Num_per;
+	
+	cout << "Fecha de entrada: ";
+	cin >> fecha;
+	cout << "Fecha de salida: ";
+	cin >> fecha_sal;
+	
+	// pedir datos del cliente
+	cout << "Nombre : ";
+	cin.ignore();
+	getline(cin, nombre_cliente);
+		
+	cout << "Dirección: ";
+	cin.ignore();
+	getline(cin, dir_cliente);
+	// Mostrar opciones
+	do {
+		system("cls");
+		
+	cout << "\nServicios de personalización y precio :";
+	  cout << "\n  (1)  Paredes        - $" << precio1;
+	  cout << "\n  (2)  Muebles        - $" << precio2;
+	  cout << "\n  (3)  Temática       - $" << precio3;
+	  cout << "\n  (4)  Sabanas        - $" << precio4;
+	  cout << "\n  (5)  Piso           - $" << precio5;
+	  cout << "\n  (6)  Matices        - $" << precio6;
+	  cout << "\n  (7)  Toallas        - $" << precio7;
+	  cout << "\n  (8)  Jabón          - $" << precio8;
+	  cout << "\n  (9)  Baño           - $" << precio9; 
+	  cout << "\n  (10) Cocina         - $" << precio10;
+	  cout << "\n\n  (11) Emitir factura"<<endl;
+	cout <<"Nota:"<<endl;
+	cout << "En caso de no requerir ninguna personalización  emita directamente la factura"<<endl;
+	  cout << "\n\nIngreser los servicios a facturar: ";
+	  cin >> opcion;
+		
+	//Iniciar selección multiple	
+		switch(opcion) {
+			case 1:
+				// cambio de paredes
+				producto = "Paredes";
+				
+				cout << "\nIngrese la Cantidad de paredes a cambiar: ";
+				cin >> cant1;
+				
+				contador = contador + 1;
+				
+				sub1 = (cant1 * precio1);
+				sub1 = (sub1 * contador);
+			break;
+			
+			case 2:
+				// Muebles
+				cout << "\nIngrese la Cantidad de muebles a cambiar: ";
+				cin >> cant2;
+				
+				contador = contador + 1;
+
+				sub2 = (cant2 * precio2);
+				sub2 = (sub2 * contador);
+			break;
+			
+			case 3:
+				// Temática
+				cout << "\nIngrese la Cantidad de tematicas a poner: ";
+				cin >> cant3;
+				
+				contador = contador + 1;
+				
+				sub3 = (cant3 * precio3);
+				sub3 = (sub3 * contador);
+			break;
+			
+			case 4:
+				// Sabanas
+				cout << "\nIngrese la cantidad a cambiar: ";
+				cin >> cant4;
+				
+				contador = contador + 1;
+				
+				sub4 = (cant4 * precio4);
+				sub4 = (sub4 * contador);
+			break;
+			
+			case 5:
+				// Piso
+				cout << "\nIngrese la cantidad de tipos a usar: ";
+				cin >> cant5;
+				
+				contador = contador + 1; 
+				
+				sub5 = (cant5 * precio5);
+				sub5 = (sub5 * contador);
+			break;
+			
+			case 6:
+				// Matiz
+				cout << "\nIngrese la cantidad de colores a combinar: ";
+				cin >> cant6;
+				
+				contador = contador + 1;
+				
+				sub6 = (cant6 * precio6);
+				sub6 = (sub6 * contador);
+			break;
+			
+			case 7:
+				// Toallas
+				cout << "\nIngrese la cantidad a cambiar: ";
+				cin >> cant7;
+				
+				contador = contador + 1;
+				
+				sub7 = (cant7 * precio7);
+				sub7 = (sub7 * contador);
+			break;
+			
+			case 8:
+				// Jabón
+				cout << "\nIngrese la cantidad a cambiar: ";
+				cin >> cant8;
+				
+				contador = contador + 1;
+				
+				sub8 = (cant8 * precio8);
+				sub8 = (sub8 * contador);
+			break;
+			
+			case 9:
+				// Baño
+				cout << "\nIngrese la cantidad interior a cambiar: ";
+				cin >> cant9;
+				
+				contador = contador + 1;
+				
+				sub9 = (cant9 * precio9);
+				sub9 = (sub9 * contador);
+			break;
+			
+			case 10:
+				// Cocina
+				cout << "\nIngrese la cantidad de objetos a cambiar: ";
+				cin >> cant10;
+				
+				contador = contador + 1;
+				
+				sub10 = (cant10 * precio10);
+				sub10 = (sub10 * contador);
+			break;
+			
+			case 11: 
+			// Sacar total
+				system("cls");
+				
+				subtotal = (sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 + sub9 + sub10);
+				iva = (subtotal * IVA);
+				total = (subtotal + iva);
+				total = total + subtotalDeArmando;
+				
+				MostrarDatosDeFactura();
+			break;
+		}
+	} while(opcion != 11);
+}
+
+
+void MostrarDatosDeFactura () {
+	// ------------ SALIDAS ----------------
+	// mostrar datos de la empresa
+	cout << empresa << endl;
+	cout << dir_empresa << endl;
+	
+	// mostrar la fecha y numero de facturacion
+	cout << "\n" << fecha << endl;
+	cout << "No. de huespedes: " << Num_per << endl;
+	
+	// mostrar datos del cliente
+	cout << "\n\nFacturado a:" << endl;
+	cout << "--------------" << endl;
+	cout << nombre_cliente << endl;
+	cout << fecha_sal << endl;
+	cout << dir_cliente << endl;	
+	// Mostrar total a pagar
+	cout << "\n\nImporte total" << endl;
+	cout << "-------------" << endl;
+	cout << "$" << total << endl;
+	
+	cout << "\n\nForma de pago" << endl;
+	cout << "--------------" << endl;
+	cout << "Depósito" << endl;
+	
+	cin.ignore();
+	cin.get();
+}
