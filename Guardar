@@ -1,0 +1,74 @@
+#pragma once
+#include <iostream>
+#include <fstream>
+#include "cuartoper.h"
+#include "leng.h"
+using namespace std;
+
+// prototipo de la funcion sistemaFactura
+void sistemaFactura();
+
+// declarar las variables: nombre del archivo, extención del archivo y nombre de la persona
+string Nfile, extn = ".txt";
+
+// declarar la variable para confirmar
+char c1;
+
+void guardar (float subtotalDeArmando) {
+	// llamar a la funcion para iniciar el proceso de facturacion
+	sistemaFactura(subtotalDeArmando); 
+	
+  ofstream file;
+
+  do {
+    system("cls");
+    cout << text3 << endl; // "Escribe el nombre del archivo"
+    cout << text4 << endl; // "(por defecto sera: 'factura')"
+    fflush(stdin);
+		getline(cin, Nfile);
+    
+    if((Nfile == "") || (Nfile == " ")) {
+      Nfile = text5; // Nflie = "factura"
+    }
+
+    Nfile = Nfile + extn;
+  
+    cout << Nfile << text6 << endl; // preguntar si el nombre del archivo es correcto
+    cin >> c1;
+
+  } while((c1 == 'n') || (c1 == 'N'));
+  
+  cout << "\n" << Nfile << text7 << endl; // decir que el archivo fue creado
+  file.open(Nfile.c_str(), ios::out); // guardar el archivo en la computadora
+
+  if(file.fail()) {
+    cout << text8; // "Lo sentimos, ha habido un error :("
+    exit(1);
+  }
+
+	// datos de la empresa
+	file << empresa << endl;
+	file << dir_empresa << endl;
+	
+	// fecha y numero de facturacion
+	file << "\n" << fecha << endl;
+	file << "No. de huespedes: " << Num_per << endl;
+	
+	// datos del cliente
+	file << "\n\nFacturado a:" << endl;
+	file << "--------------" << endl;
+	file << nombre_cliente << endl;
+	file << fecha_sal << endl;
+	file << dir_cliente << endl;	
+	
+	file << "\n\nImporte total" << endl;
+	file << "-------------" << endl;
+	file << "$" << total << endl;
+	
+	file << "\n\nForma de pago" << endl;
+	file << "--------------" << endl;
+	file << "Contado";
+
+
+  file.close();
+}
