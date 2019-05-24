@@ -1,0 +1,513 @@
+//Joshua Kryzia
+#include <iostream>
+using namespace std;
+
+float suiza (int s1)
+{
+	switch  (s1)
+	{
+		int p,fp,tt,td;
+		case 1:
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		
+		//	int p,fp,tt,td;
+		case 2:
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float canada (int s2)
+{
+	switch  (s2)
+	{
+	case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+
+float alemania (int s3)
+{
+	switch  (s3)
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float reinou (int s4)
+{
+	switch  (s4)
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float jap(int s5)
+{
+	switch  (s5)
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float suecia (int s6)
+{
+	switch  (s6)
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float australia (int s7)
+{
+	switch  (s7)
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float eu (int s8)
+{
+	switch  (s8)
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float fr (int s9)
+{
+	switch  (s9)
+{
+	case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+}
+}
+float mex (int s10)
+{
+	switch (s10) 
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float nor (int s11)
+{
+	switch  (s11)
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+			//int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float fin (int s12)
+{
+	switch  (s12)
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
+float es (int s13)
+{
+	switch  (s13)
+	{
+		case 1:
+		int p,fp,tt,td;
+			cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1000;
+		td=fp*70;
+		tt=tt+td;
+		return tt;
+		break;
+		case 2:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1500;
+		td=fp*80;
+		tt=tt+td;
+		return tt;
+		break;
+		case 3:
+		//	int p,fp,tt,td;
+				cout <<"Introduzca el número de huéspedes"<<endl;
+			cin>>p;
+			cout <<"Introduzca días de permanencia"<<endl;
+			cin>>fp;
+			tt=p*1200;
+		td=fp*75;
+		tt=tt+td;
+		return tt;
+		break;
+	}
+}
