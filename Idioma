@@ -3,15 +3,15 @@
 
 using namespace std;
 
-string text1, text2, text3, text4, text5, text6, text7, text8, text9, text10,text11;
-string text12,text13,text14,text15,text16,text17,text18,text19,text20,text21,text22;
-string text23,text24;
+string text1, text2, text3, text4, text5, text6, text7, text8, text9, text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text21,text22,
+text23,text24,text25,text26,text27,text28,text29;
 
 void idioma(int leng) {    
   switch(leng) {
     case 1:
       system("cls");
     text1 = "write your name: ";
+    text2="Enter the number of a branch:";
       text3 = "Write the file name: ";
       text4 = "(by default it'll be: 'invoice')";
       text5 = "invoice";
@@ -34,11 +34,17 @@ void idioma(int leng) {
 	 text22="Spain";
 	 text23="Select a country:";
 	 text24="The hotels available in Switzerland are";
+	 text25="Switzerland Center";
+	 text26="North Switzerland";
+	 text27="South Switzerland";
+	 text28="The subtotal to pay is";
+	 text29="The available hotels in Canada are:";
 	break;
 
     case 2:
       system("cls");
     text1 = "Escriba su nombre: ";
+    text2="Introduzca el número de  una sucursal:";
       text3 = "Ingrese  el nombre del archivo: ";
       text4 = "(por defecto sera: 'Detalles')";
       text5 = "detalles";
@@ -61,7 +67,12 @@ void idioma(int leng) {
 	  text22="España";
 	  text23=" Seleccione un país:";
 	  text24="Los hoteles disponibles  en Suiza son";
-	//  text25=
+	 text25= "Suiza Centro";
+	 text26="Suiza Norte";
+	 text27="Suiza Sur";
+	 text28="El subtotal a pagar es";
+	 text29="Los hoteles disponibles en  Canadá son:";
+	 
 	break;
   }
 }
