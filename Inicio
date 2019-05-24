@@ -1,0 +1,857 @@
+#include <iostream>
+#include <locale.h>
+#include "porpais.h"
+#include "guarda.h"
+#include "leng.h"
+#include "goto.h"
+
+using namespace std;
+
+int leng;
+
+
+void idioma(int leng);
+void guardar();
+
+int main () {
+	// poder utilizar caracteres del español
+	setlocale(LC_CTYPE, "Spanish");
+
+	do {
+  	system("cls");
+	  //C
+// arriba 
+   	gotoxy (37,3);
+cout <<"+"<<endl;
+	gotoxy (37,4);
+cout <<"+"<<endl;
+
+   	gotoxy (38,3);
+cout <<"+"<<endl;
+	gotoxy (38,4);
+cout <<"+"<<endl;
+
+   	gotoxy (39,3);
+cout <<"+"<<endl;
+ 	gotoxy (39,4);
+cout <<"+"<<endl;
+
+   	gotoxy (40,3);
+cout <<"+"<<endl;
+	gotoxy (40,4);
+cout <<"+"<<endl;
+
+   	gotoxy (41,3);
+cout <<"+"<<endl;
+	gotoxy (41,4);
+cout <<"+"<<endl;
+
+   	gotoxy (42,3);
+cout <<"+"<<endl;
+	gotoxy (42,4);
+cout <<"+"<<endl;
+
+   	gotoxy (43,3);
+cout <<"+"<<endl;
+ 	gotoxy (43,4);
+cout <<"+"<<endl;
+
+   	gotoxy (44,3);
+cout <<"+"<<endl; 
+	gotoxy (44,4);
+cout <<"+"<<endl;
+      	gotoxy (45,3);
+cout <<"+"<<endl;
+	gotoxy (45,4);
+cout <<"+"<<endl;
+
+  	gotoxy (44,3);
+cout <<"+"<<endl;
+	gotoxy (44,4);
+cout <<"+"<<endl;
+
+  	gotoxy (43,3);
+cout <<"+"<<endl;
+	gotoxy (43,4);
+cout <<"+"<<endl;
+
+  	gotoxy (46,3);
+cout <<"+"<<endl;
+	gotoxy (46,4);
+cout <<"+"<<endl;
+
+  	gotoxy (47,3);
+cout <<"+"<<endl;
+	gotoxy (47,4);
+cout <<"+"<<endl;
+
+  	gotoxy (48,3);
+cout <<"+"<<endl;
+	gotoxy (48,4);
+cout <<"+"<<endl;
+
+  	gotoxy (49,3);
+cout <<"+"<<endl;
+	gotoxy (49,4);
+cout <<"+"<<endl;
+
+  	gotoxy (50,3);
+cout <<"+"<<endl;
+ 	gotoxy (50,4);
+cout <<"+"<<endl;
+
+  	gotoxy (51,3);
+cout <<"+"<<endl;
+	gotoxy (51,4);
+cout <<"+"<<endl;
+
+  	gotoxy (52,3);
+cout <<"+"<<endl;
+	gotoxy (52,4);
+cout <<"+"<<endl;
+
+  	gotoxy (53,3);
+cout <<"+"<<endl;
+	gotoxy (53,4);
+cout <<"+"<<endl;
+
+  	gotoxy (54,3);
+cout <<"+"<<endl;
+	gotoxy (54,4);
+cout <<"+"<<endl;
+
+gotoxy (54,4);
+	cout << "+"<<endl;
+//enmedio	
+	gotoxy (37,5);
+	cout <<"+"<<endl;
+		gotoxy (38,5);
+	cout <<"+"<<endl;
+	gotoxy (39,5);
+	cout << "+"<<endl;
+		gotoxy (40,5);
+	cout << "+"<<endl;
+	
+	gotoxy(37,6);
+	cout<< "+"<<endl;
+		gotoxy(38,6);		
+	cout<< "+"<<endl;
+		gotoxy(39,6);		
+	cout<< "+"<<endl;
+		gotoxy (40,6);
+	cout << "+"<<endl;
+	
+	gotoxy(37,7);
+	cout << "+"<<endl;
+		gotoxy(38,7);
+	cout << "+"<<endl;
+		gotoxy(39,7);
+	cout << "+"<<endl;
+		gotoxy (40,7);
+	cout << "+"<<endl;
+	
+	gotoxy (37,8);
+	cout << "+"<<endl;
+		gotoxy (38,8);
+	cout << "+"<<endl;
+		gotoxy (39,8);
+	cout << "+"<<endl;
+		gotoxy (40,8);
+	cout << "+"<<endl;
+	
+	gotoxy(37,9);
+	cout << "+"<<endl;
+		gotoxy(38,9);
+	cout << "+"<<endl;
+		gotoxy(39,9);
+	cout << "+"<<endl;
+		gotoxy (40,9);
+	cout << "+"<<endl;
+	
+	gotoxy (37,10);
+	cout << "+"<<endl;
+		gotoxy (38,10);
+	cout << "+"<<endl;
+		gotoxy (39,10);
+	cout << "+"<<endl;
+		gotoxy (40,10);
+	cout << "+"<<endl;
+	
+	gotoxy (37,11);
+	cout <<"+"<<endl;
+		gotoxy (38,11);
+	cout <<"+"<<endl;
+		gotoxy (39,11);
+	cout <<"+"<<endl;
+		gotoxy (40,11);
+	cout << "+"<<endl;
+	
+	gotoxy (37,12);
+	cout << "+"<<endl;
+		gotoxy (38,12);
+	cout << "+"<<endl;
+		gotoxy (39,12);
+	cout << "+"<<endl;
+		gotoxy (40,12);
+	cout << "+"<<endl;
+	
+	
+	gotoxy (37,13);
+	cout <<"+"<<endl;
+		gotoxy (38,13);
+	cout <<"+"<<endl;
+		gotoxy (39,13);
+	cout <<"+"<<endl;
+		gotoxy (40,13);
+	cout << "+"<<endl;
+	
+	gotoxy (37,14);
+	cout <<"+"<<endl;
+		gotoxy (38,14);
+	cout <<"+"<<endl;
+		gotoxy (39,14);
+	cout <<"+"<<endl;
+		gotoxy (40,14);
+	cout << "+"<<endl;
+	
+	gotoxy (37,15);
+	cout << "+"<<endl;
+		gotoxy (38,15);
+	cout << "+"<<endl;
+		gotoxy (39,15);
+	cout << "+"<<endl;
+		gotoxy (40,15);
+	cout << "+"<<endl;
+	
+	gotoxy (37,16);
+	cout << "+"<<endl;
+		gotoxy (38,16);
+	cout << "+"<<endl;
+		gotoxy (39,16);
+	cout << "+"<<endl;
+		gotoxy (40,16);
+	cout << "+"<<endl;	
+
+
+// abajo
+	
+	gotoxy (37,17);
+		cout <<  "+";
+			gotoxy (37,16);
+		cout <<  "+";
+		
+			gotoxy (38,17);
+		cout <<  "+";
+			gotoxy (38,16);
+		cout <<  "+";
+		
+			gotoxy (39,17);
+		cout <<  "+";
+			gotoxy (39,16);
+		cout <<  "+";
+		
+			gotoxy (40,17);
+		cout <<  "+";
+			gotoxy (40,16);
+		cout <<  "+";
+		
+	gotoxy (41,17);
+		cout <<  "+";
+			gotoxy (41,16);
+		cout <<  "+";
+		
+			gotoxy (42,17);
+		cout <<  "+";
+			gotoxy (42,16);
+		cout <<  "+";
+		
+			gotoxy (43,17);
+		cout <<  "+";
+			gotoxy (43,16);
+		cout <<  "+";
+		
+			gotoxy (44,17);
+		cout <<  "+";
+				gotoxy (44,16);
+		cout <<  "+";
+		
+			gotoxy (45,17);
+		cout <<  "+";
+			gotoxy (45,16);
+		cout <<  "+";
+		
+			gotoxy (46,17);
+		cout <<  "+";
+			gotoxy (46,16);
+				cout <<  "+";
+			
+				gotoxy (47,17);
+		cout <<  "+";
+			gotoxy (47,16);
+				cout <<  "+";
+			
+				gotoxy (48,17);
+		cout <<  "+";
+			gotoxy (48,16);
+				cout <<  "+";
+				
+				gotoxy (49,17);
+		cout <<  "+";
+			gotoxy (49,16);
+				cout <<  "+";
+				
+				gotoxy (50,17);
+		cout <<  "+";
+			gotoxy (50,16);
+				cout <<  "+";
+				
+				gotoxy (51,17);
+		cout <<  "+";
+			gotoxy (51,16);
+				cout <<  "+";
+				
+				gotoxy (52,17);
+		cout <<  "+";
+			gotoxy (52,16);
+				cout <<  "+";
+				gotoxy (53,17);
+		cout <<  "+";
+			gotoxy (53,16);
+				cout <<  "+";
+				gotoxy (54,17);
+		cout <<  "+";
+			gotoxy (54,16);
+				cout <<  "+";
+				
+				gotoxy (55,17);
+		cout <<  "+";
+			gotoxy (55,16);
+			
+			
+		cout <<  "+";
+		gotoxy (50,50);
+		cout <<"Solo"<<endl;
+
+
+
+//Y
+// arriba 
+   	gotoxy (67,3);
+cout <<"+"<<endl;
+	gotoxy (67,4);
+cout <<"+"<<endl;
+
+   	gotoxy (68,3);
+cout <<"+"<<endl;
+	gotoxy (68,4);
+cout <<"+"<<endl;
+
+   	gotoxy (69,3);
+cout <<"+"<<endl;
+ 	gotoxy (69,4);
+cout <<"+"<<endl;
+
+   	gotoxy (70,3);
+cout <<"+"<<endl;
+	gotoxy (70,4);
+cout <<"+"<<endl;
+
+   	gotoxy (71,3);
+cout <<"+"<<endl;
+	gotoxy (71,4);
+cout <<"+"<<endl;
+
+   	gotoxy (72,3);
+cout <<"+"<<endl;
+	gotoxy (72,4);
+cout <<"+"<<endl;
+
+   	gotoxy (73,3);
+cout <<"+"<<endl;
+ 	gotoxy (73,4);
+cout <<"+"<<endl;
+
+   	gotoxy (74,3);
+cout <<"+"<<endl; 
+	gotoxy (74,4);
+cout <<"+"<<endl;
+      	gotoxy (75,3);
+cout <<"+"<<endl;
+	gotoxy (75,4);
+cout <<"+"<<endl;
+
+  	gotoxy (74,3);
+cout <<"+"<<endl;
+	gotoxy (74,4);
+cout <<"+"<<endl;
+
+  	gotoxy (73,3);
+cout <<"+"<<endl;
+	gotoxy (73,4);
+cout <<"+"<<endl;
+
+  	gotoxy (76,3);
+cout <<"+"<<endl;
+	gotoxy (76,4);
+cout <<"+"<<endl;
+
+  	gotoxy (77,3);
+cout <<"+"<<endl;
+	gotoxy (77,4);
+cout <<"+"<<endl;
+
+  	gotoxy (78,3);
+cout <<"+"<<endl;
+	gotoxy (78,4);
+cout <<"+"<<endl;
+
+  	gotoxy (79,3);
+cout <<"+"<<endl;
+	gotoxy (79,4);
+cout <<"+"<<endl;
+
+  	gotoxy (80,3);
+cout <<"+"<<endl;
+ 	gotoxy (80,4);
+cout <<"+"<<endl;
+
+  	gotoxy (81,3);
+cout <<"+"<<endl;
+	gotoxy (81,4);
+cout <<"+"<<endl;
+
+  	gotoxy (82,3);
+cout <<"+"<<endl;
+	gotoxy (82,4);
+cout <<"+"<<endl;
+
+  	gotoxy (83,3);
+cout <<"+"<<endl;
+	gotoxy (83,4);
+cout <<"+"<<endl;
+
+  	gotoxy (84,3);
+cout <<"+"<<endl;
+	gotoxy (84,4);
+cout <<"+"<<endl;
+
+gotoxy (84,4);
+	cout << "+"<<endl;
+//enmedio	
+	gotoxy (74,5);
+	cout <<"+"<<endl;
+		gotoxy (75,5);
+	cout <<"+"<<endl;
+	gotoxy (76,5);
+	cout << "+"<<endl;
+	
+	gotoxy(74,6);
+	cout<< "+"<<endl;
+		gotoxy(75,6);		
+	cout<< "+"<<endl;
+		gotoxy(76,6);		
+	cout<< "+"<<endl;
+	
+	gotoxy(74,7);
+	cout << "+"<<endl;
+		gotoxy(75,7);
+	cout << "+"<<endl;
+		gotoxy(76,7);
+	cout << "+"<<endl;
+	
+	gotoxy (74,8);
+	cout << "+"<<endl;
+		gotoxy (75,8);
+	cout << "+"<<endl;
+		gotoxy (76,8);
+	cout << "+"<<endl;
+	
+	gotoxy(74,9);
+	cout << "+"<<endl;
+		gotoxy(75,9);
+	cout << "+"<<endl;
+		gotoxy(76,9);
+	cout << "+"<<endl;
+	
+	gotoxy (74,10);
+	cout << "+"<<endl;
+		gotoxy (75,10);
+	cout << "+"<<endl;
+		gotoxy (76,10);
+	cout << "+"<<endl;
+	
+	gotoxy (74,11);
+	cout <<"+"<<endl;
+		gotoxy (75,11);
+	cout <<"+"<<endl;
+		gotoxy (76,11);
+	cout <<"+"<<endl;
+	
+	gotoxy (74,12);
+	cout << "+"<<endl;
+		gotoxy (75,12);
+	cout << "+"<<endl;
+		gotoxy (76,12);
+	cout << "+"<<endl;
+	
+	
+	gotoxy (74,13);
+	cout <<"+"<<endl;
+		gotoxy (75,13);
+	cout <<"+"<<endl;
+		gotoxy (76,13);
+	cout <<"+"<<endl;
+	
+	gotoxy (74,14);
+	cout <<"+"<<endl;
+		gotoxy (75,14);
+	cout <<"+"<<endl;
+		gotoxy (76,14);
+	cout <<"+"<<endl;
+	
+	gotoxy (74,15);
+	cout << "+"<<endl;
+		gotoxy (75,15);
+	cout << "+"<<endl;
+		gotoxy (76,15);
+	cout << "+"<<endl;
+	
+	gotoxy (74,16);
+	cout << "+"<<endl;
+		gotoxy (75,16);
+	cout << "+"<<endl;
+		gotoxy (76,16);
+	cout << "+"<<endl;	
+
+
+// abajo
+	
+	gotoxy (74,17);
+		cout <<  "+";
+			gotoxy (74,16);
+		cout <<  "+"
+		;
+			gotoxy (75,17);
+		cout <<  "+";
+			gotoxy (75,16);
+		cout <<  "+";
+		
+			gotoxy (73,17);
+		cout <<  "+";
+			gotoxy (73,16);
+		cout <<  "+";
+		
+			gotoxy (72,17);
+		cout <<  "+";
+			gotoxy (72,16);
+		cout <<  "+";
+		
+	gotoxy (71,17);
+		cout <<  "+";
+			gotoxy (71,16);
+		cout <<  "+";
+		
+			gotoxy (70,17);
+		cout <<  "+";
+			gotoxy (70,16);
+		cout <<  "+";
+		
+			gotoxy (69,17);
+		cout <<  "+";
+			gotoxy (69,16);
+		cout <<  "+";
+			gotoxy (68,17);
+		cout <<  "+";
+				gotoxy (68,16);
+		cout <<  "+";
+		
+			gotoxy (67,17);
+		cout <<  "+";
+			gotoxy (67,16);
+		cout <<  "+";
+		
+			gotoxy (66,17);
+		cout <<  "+";
+			gotoxy (66,16);
+		cout <<  "+";
+		gotoxy (40,20);
+		cout <<"CJ PLATINO.NUESTRO HOTEL, TU MUNDO"<<endl;
+		gotoxy (10,30);
+		cout <<"Idiomas disponibles-Available languages"<<endl;
+	gotoxy (10,32);
+		cout << "1.Inglés-English"<<endl;
+		gotoxy (10,33);
+		cout <<"2. Español-Spanish"<<endl;
+		cout <<"Introduzca  un   número  para continuar-Enter a number to continue "<<endl;
+	  cin >> leng;	
+	} while((leng != 1) && (leng != 2));
+
+  idioma(leng);
+  //declaración de variables
+int sele,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13;
+	float t;
+ 	gotoxy (55,2);
+cout <<text9<<endl;
+gotoxy (35,4);
+	cout << "1. "<<text10<<endl;
+	gotoxy (35,5);
+	cout <<"2. "<<text11<<endl;
+	gotoxy(35,6);
+	cout<< "3. "<<text12<<endl;
+	gotoxy(35,7);
+	cout << "4. "<<text13<<endl;
+	gotoxy (35,8);
+	cout << "5. "<<text14<<endl;
+	gotoxy(35,9);
+	cout << "6. "<<text15<<endl;
+	gotoxy (75,4);
+	cout << "7. "<<text16<<endl;
+	gotoxy (75,5);
+	cout <<"8.  "<<text17<<endl;
+	gotoxy (75,6);
+	cout << "9. "<<text18<<endl;
+	gotoxy (75,7);
+	cout <<"10. "<<text19<<endl;
+	gotoxy (75,8);
+	cout <<"11."<<text20<<endl;
+	gotoxy (75,9);
+	cout << "12. "<<text21<<endl;
+	gotoxy (100,6);
+	cout << "13. "<<text22<<endl;
+	gotoxy (15,12);
+		cout << " "<<" "<<text23;
+	cin >> sele;
+	switch  (sele){
+		//Seleccion de sucursal
+	
+	
+	case 1:
+system("cls");
+		gotoxy (50,5);
+	cout << text24<<endl;
+gotoxy (5,10);
+	cout <<"1.CJ Platino Suiza Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Suiza Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Suiza Sur "<<endl;
+gotoxy (30,15);
+	cout <<"Introduzca el número de  una sucursal:";
+	cin >>s1;
+	t=suiza(s1);
+	cout << "El subtotal a pagar es: $"<<t <<endl;
+	system ("pause");
+	break;
+	case 2:
+		system("cls");
+		 	gotoxy (40,5);
+			cout << "Los hoteles disponibles en  Canadá son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Canadá Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Canadá Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Canadá Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s2;
+	t=canada(s2);
+	cout <<"El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+case 3:
+	system("cls");
+	 	gotoxy (40,5);
+			cout << "Los hoteles disponibles en Alemania son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Alemania Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Alemania Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Alemania Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s3;
+	t=alemania(s3);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 4:
+		 system("cls");
+		 	gotoxy (40,5);
+			cout << "Los hoteles disponibles en Reino Unido son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Reino Unido Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino Reino Unido Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino Reino Unido Sur "<<endl;
+gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s4;
+	t=reinou(s4);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 5:
+		system("cls");
+		 	gotoxy (40,5);
+		cout <<"Los hoteles disponibles en Japón son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Japón Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino Japón  Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino Japón  Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s5;
+	t=jap(s5);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 6:
+	 system("cls");
+		 	gotoxy (40,5);
+		cout <<"Los hoteles disponibles en Suecia son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Suecia Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino Suecia Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino Suecia Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s6;
+	t=suecia(s6);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 7:
+	 system("cls");
+		 	gotoxy (40,5);
+		cout << "Los hoteles disponibles en Australia son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Australia Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino Australia Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino Australia Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s7;
+	t=australia(s7);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 8:
+	system("cls");
+		 	gotoxy (40,5);
+		cout << "Los hoteles disponibles en Estados Unidos son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Estados Unidos Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino Estados Unidos Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino Estados Unidos Sur "<<endl;
+gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s8;
+	t=eu(s8);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 9: 
+system("cls");
+	 	gotoxy (40,5);
+	cout << "Los hoteles disponibles en Francia son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Francia Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino Francia  Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino Francia  Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s9;
+	t=fr(s9);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 10:
+	system("cls");
+		 	gotoxy (40,5);
+		cout << "Los hoteles disponibles en México son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino México Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino México Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino México Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s10;
+	t=mex(s10);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 11:
+	system("cls");
+		 	gotoxy (40,5);
+		cout << "Los hoteles disponibles en Noruega son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Noruega Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino Noruega Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino Noruega Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s11;
+	t=nor(s11);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 12:
+	 system("cls");
+		 	gotoxy (40,5);
+		cout << "Los hoteles disponibles en Finlandia son: "<<endl;
+	gotoxy (5,10);
+		cout <<"1.CJ Platino Finlandia Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino Finlandia Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino Finlandia Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s12;
+	t=fin(s12);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+	system ("pause");
+	break;
+	case 13:
+	system("cls");
+		 	gotoxy (40,5);
+		cout << "Los hoteles disponibles en España son: "<<endl;
+gotoxy (5,10);
+		cout <<"1.CJ Platino España Centro"<<endl;
+gotoxy (55,10);
+	cout <<"2. CJ Platino Platino España Norte"<<endl;
+gotoxy (95,10);
+	cout << "3.CJ Platino Platino España Sur "<<endl;
+	gotoxy (30,15);
+		cout <<"Introduzca el número de  una sucursal:";
+	cin >>s13;
+	t=es(s13);
+	cout << "El subtotal a pagar es : $"<<t <<endl;
+system ("pause");
+	break;
+}
+  // guardar los datos de facturacion en un archivo de texto
+  guardar(t);
+	
+	
+  
+    
+  return 0;
+}
