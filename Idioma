@@ -1,0 +1,67 @@
+#pragma once
+#include <iostream>
+
+using namespace std;
+
+string text1, text2, text3, text4, text5, text6, text7, text8, text9, text10,text11;
+string text12,text13,text14,text15,text16,text17,text18,text19,text20,text21,text22;
+string text23,text24;
+
+void idioma(int leng) {    
+  switch(leng) {
+    case 1:
+      system("cls");
+    text1 = "write your name: ";
+      text3 = "Write the file name: ";
+      text4 = "(by default it'll be: 'invoice')";
+      text5 = "invoice";
+      text6 = "The name  is ok? (y/n) ";
+      text7 = " was created";
+      text8 = "Sorry, we have done something wrong";
+	  text9="Available countries";
+	 text10="Switzerland";
+	 text11="Canada";
+	 text12="Germany";
+	 text13="United Kingdom";
+	 text14="Japan";
+	 text15="Sweden";
+	 text16="Australia";
+	 text17="United States";
+	 text18="France";
+	 text19="Mexico";
+	 text20="Norway";
+	 text21="Finland";
+	 text22="Spain";
+	 text23="Select a country:";
+	 text24="The hotels available in Switzerland are";
+	break;
+
+    case 2:
+      system("cls");
+    text1 = "Escriba su nombre: ";
+      text3 = "Ingrese  el nombre del archivo: ";
+      text4 = "(por defecto sera: 'Detalles')";
+      text5 = "detalles";
+      text6 = "El nombre es correcto? (y/n) ";
+      text7 = "El archivo fue creado";
+      text8 = "Lo sentimos,hemos hecho algo mal ";
+	  text9="Países disponibles";
+	  text10="Suiza";
+	  text11="Canadá";
+	  text12="Alemania";
+	  text13="Reino Unido";
+	  text14="Japón";
+	  text15="Suecia";
+	  text16="Australia";
+	  text17="Estados Unidos";
+	  text18="Francia";
+	  text19="México";
+	  text20="Noruega";
+	  text21="Finlandia";
+	  text22="España";
+	  text23=" Seleccione un país:";
+	  text24="Los hoteles disponibles  en Suiza son";
+	//  text25=
+	break;
+  }
+}
